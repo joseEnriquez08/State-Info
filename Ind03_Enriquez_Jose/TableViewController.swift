@@ -9,6 +9,7 @@ import UIKit
 
 class TableViewController: UITableViewController {
     let stateNames: [(String, String)] = [
+        
         (name: "Alabama", nickName: "Yellowhammer State"),
         (name: "Alaska", nickName: "The Last Frontier"),
         (name: "Arizona", nickName: "The Grand Canyon State"),
