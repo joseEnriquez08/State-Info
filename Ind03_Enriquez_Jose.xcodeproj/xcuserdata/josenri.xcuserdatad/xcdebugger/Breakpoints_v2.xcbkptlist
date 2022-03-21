@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "54F839DF-4A65-456F-9EFE-70876BB647AD"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2BAE5384-661C-455A-AA23-D9D77AE9A5CF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Ind03_Enriquez_Jose/TableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "states"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "2BAE5384-661C-455A-AA23-D9D77AE9A5CF - d6c43140fa05b0d7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ind03_Enriquez_Jose.TableViewController.states.getter : Swift.Array&lt;Ind03_Enriquez_Jose.State&gt;"
+                  moduleName = "Ind03_Enriquez_Jose"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/josenri/Desktop/apps/Ind03_Enriquez_Jose/Ind03_Enriquez_Jose/TableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "45">
+               </Location>
+               <Location
+                  uuid = "2BAE5384-661C-455A-AA23-D9D77AE9A5CF - eb314560f52776ee"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ind03_Enriquez_Jose.TableViewController.init(style: __C.UITableViewStyle) -&gt; Ind03_Enriquez_Jose.TableViewController"
+                  moduleName = "Ind03_Enriquez_Jose"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/josenri/Desktop/apps/Ind03_Enriquez_Jose/Ind03_Enriquez_Jose/TableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "70">
+               </Location>
+               <Location
+                  uuid = "2BAE5384-661C-455A-AA23-D9D77AE9A5CF - 3757782192b6b2e0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ind03_Enriquez_Jose.TableViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Ind03_Enriquez_Jose.TableViewController"
+                  moduleName = "Ind03_Enriquez_Jose"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/josenri/Desktop/apps/Ind03_Enriquez_Jose/Ind03_Enriquez_Jose/TableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "139">
+               </Location>
+               <Location
+                  uuid = "2BAE5384-661C-455A-AA23-D9D77AE9A5CF - ba6d89f470b75ee9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ind03_Enriquez_Jose.TableViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Ind03_Enriquez_Jose.TableViewController&gt;"
+                  moduleName = "Ind03_Enriquez_Jose"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/josenri/Desktop/apps/Ind03_Enriquez_Jose/Ind03_Enriquez_Jose/TableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "87">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

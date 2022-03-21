@@ -154,6 +154,7 @@ class TableViewController: UITableViewController {
         cell.textLabel?.text = cellData.name
 
         return cell
+        
     }
     
 
