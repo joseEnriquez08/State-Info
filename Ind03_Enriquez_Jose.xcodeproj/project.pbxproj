@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		72BA1A5427DAC3E9009B47F1 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BA1A5327DAC3E9009B47F1 /* State.swift */; };
+		72CF0AB327EA5A6800E26D91 /* References.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 72CF0AB227EA5A6800E26D91 /* References.pdf */; };
 		72D31EC627D99AAD006225C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D31EC527D99AAD006225C6 /* AppDelegate.swift */; };
 		72D31EC827D99AAD006225C6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D31EC727D99AAD006225C6 /* SceneDelegate.swift */; };
 		72D31ECA27D99AAD006225C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D31EC927D99AAD006225C6 /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		72BA1A5327DAC3E9009B47F1 /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		72CF0AB227EA5A6800E26D91 /* References.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = References.pdf; sourceTree = "<group>"; };
 		72D31EC227D99AAD006225C6 /* Ind03_Enriquez_Jose.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ind03_Enriquez_Jose.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72D31EC527D99AAD006225C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72D31EC727D99AAD006225C6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -44,6 +46,7 @@
 		72D31EB927D99AAD006225C6 = {
 			isa = PBXGroup;
 			children = (
+				72CF0AB227EA5A6800E26D91 /* References.pdf */,
 				72D31EC427D99AAD006225C6 /* Ind03_Enriquez_Jose */,
 				72D31EC327D99AAD006225C6 /* Products */,
 			);
@@ -131,6 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72CF0AB327EA5A6800E26D91 /* References.pdf in Resources */,
 				72D31ED227D99AAE006225C6 /* LaunchScreen.storyboard in Resources */,
 				72D31ECF27D99AAE006225C6 /* Assets.xcassets in Resources */,
 				72D31ECD27D99AAD006225C6 /* Main.storyboard in Resources */,
