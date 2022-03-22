@@ -8,6 +8,8 @@
 import UIKit
 
 class TableViewController: UITableViewController {
+    
+    //array of all the states in alphabetical order and their corresponding information
     let states: [State] = [
         State(name: "Alabama", nickName: "Yellowhammer State", area: "50,744", flag: UIImage(named: "FlagAlabama.png"), map: UIImage(named: "MapAlabama.png")),
         State(name: "Alaska", nickName: "The Last Frontier", area: "571,951", flag: UIImage(named: "FlagAlaska"), map:UIImage(named: "MapAlaska.png")),
@@ -77,26 +79,25 @@ class TableViewController: UITableViewController {
     // MARK: - Table view data source
     
     
-
+    // there is only one section
     override func numberOfSections(in tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
         return 1
     }
 
+    // there are 50 rows corresponding to the amount of states there are in the array
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
         return states.count
     }
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        print("reach")
+        //print("reach")swift
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
 
-        // Configure the cell...
+        //celldata will consist of the state's name and nickname
         let cellData: (name: String, nickName: String) = (states[indexPath[1]].name, states[indexPath[1]].nickName)
-        
         cell.textLabel?.text = cellData.name
+        cell.detailTextLabel?.text = cellData.nickName
 
         return cell
     }
@@ -141,18 +142,28 @@ class TableViewController: UITableViewController {
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    override func prepare(for segue: UIStoryboardSegue, thesender: Any?) {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
     }
     */
+    
+    
+    //prepares information for the next segue
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        //segues to the next viecontroller
         let secondScreen = segue.destination as! ViewController
         
+        //gets the index path of the tapped cell
         let indexPath = self.tableView.indexPathForSelectedRow!
+        
+        //gets the correct state corresponging to the indexpath
         let cellState = states[indexPath.row]
+        
+        //send the state to the view controller destination
         secondScreen.state = cellState
         
+        //i dont really know what this does.
         self.tableView.deselectRow(at: indexPath, animated: true)
     }
 

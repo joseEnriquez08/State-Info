@@ -8,6 +8,7 @@
 import Foundation
 import UIKit
 
+//class to make state objects andhold their corresponding information
 class State: NSObject {
     var name: String
     var nickName: String

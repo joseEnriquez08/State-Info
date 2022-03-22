@@ -15,17 +15,14 @@ class ViewController: UIViewController {
     @IBOutlet weak var stateName: UILabel!
     @IBOutlet weak var stateArea: UILabel!
     
-    //var holeImage = UIImage.
-    var test = "test"
+    //placeholder state object
     var state = State(name: "", nickName: "", area: "", flag: UIImage(systemName: "heart.fill"), map: UIImage(systemName: "heart.fill"))
-    
-   
-
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
+        //using the state object passed through the segue, the UI elements are assigned to the state's corresponding information
         flagImage.image = state.flag
         mapImage.image = state.map
         stateName.text = state.name
